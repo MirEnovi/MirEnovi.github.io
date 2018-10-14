@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 
 import './nav.css';
+import { Navbar } from 'react-materialize'
 
 class Nav extends Component {
 	render() {
 		return (
-			<nav className = 'navbar-fixed'>
-				<div className = 'nav-wrapper'>
-					<a href = '#' className = 'brand-logo'>Mir García</a>
-					<ul id = 'nav-mobile' className = 'right hide-on-med-and-down'>
-						<li><a href='badges.html'>Acerca de Mi</a></li>
-						<li><a href='badges.html'>Portafolio</a></li>
-						<li><a href='collapsible.html'>Contacto</a></li>
-					</ul>
-				</div>
-			</nav>
+			<Navbar brand='Mir García' left className = 'amber blue-grey-text text-darken-3'>
+				<ul id = 'nav-mobile' className = 'right hide-on-med-and-down'>
+					<li>
+						<a className = 'blue-grey-text text-darken-3' href='badges.html'>Acerca de Mi</a>
+					</li>
+					<li>
+						<a className = 'blue-grey-text text-darken-3' href='badges.html'>Portafolio</a>
+					</li>
+					<li>
+						<a className = 'blue-grey-text text-darken-3' href='collapsible.html'>Contacto</a>
+					</li>
+				</ul>
+			</Navbar>
 		)
 	}
 }
