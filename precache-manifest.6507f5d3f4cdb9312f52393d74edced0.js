@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/Mirian-G-Portafolio/static/js/runtime~main.5f58eca1.js"
   },
   {
-    "revision": "363a2d99ebdc5d448035",
-    "url": "/Mirian-G-Portafolio/static/js/main.363a2d99.chunk.js"
+    "revision": "a250ae1de30ac35a1191",
+    "url": "/Mirian-G-Portafolio/static/js/main.a250ae1d.chunk.js"
   },
   {
-    "revision": "d4c61ae721131c4a7b3e",
-    "url": "/Mirian-G-Portafolio/static/js/1.d4c61ae7.chunk.js"
+    "revision": "7fa10020fc50723b06dc",
+    "url": "/Mirian-G-Portafolio/static/js/1.7fa10020.chunk.js"
   },
   {
-    "revision": "363a2d99ebdc5d448035",
+    "revision": "a250ae1de30ac35a1191",
     "url": "/Mirian-G-Portafolio/static/css/main.a951832d.chunk.css"
   },
   {
-    "revision": "3b1db3feaebc74af9416570c71811ba0",
+    "revision": "1a0b83d8a73dbe4cae73324f129b0f44",
     "url": "/Mirian-G-Portafolio/index.html"
   }
 ];
