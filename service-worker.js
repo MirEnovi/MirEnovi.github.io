@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/MirEnovi.github.io/precache-manifest.e0af116b7bc015caa2c55bd4cc3e6468.js"
+  "/Mirian-G-Portafolio/precache-manifest.52fbbc5e6d0784ff1a48a15ce10503ea.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MirEnovi.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/Mirian-G-Portafolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
