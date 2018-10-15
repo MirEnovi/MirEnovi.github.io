@@ -1,0 +1,18 @@
+.height {
+	height: 60vh;
+}
+
+.inicio {
+	color: #FFFFFF;
+	margin-top: 5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.text-body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text-body-size {
+	font-size: .8em;
+}
