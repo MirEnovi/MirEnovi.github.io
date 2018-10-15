@@ -16,9 +16,8 @@ const Inicio = (props) => {
 				<h2 className = 'valign-wrapper'>Bienvenido</h2>
 				<p className = 'text-body-size left-align'>
 					Mi nombre es <b>Mirian Ivonne García Hernández</b>.
-					Me apasiona el codigo.
-					Actualmente soy Front-End Developer. Hago Web App's con JavaScript, implementando herramientas como React.js, Node.js, Materialize y Bootstrap.
-					Me forje en el codigo en Laboratoria, pero como el mundo no se detiene, me considero estudiante de por vida y me gusta ser autodidacta, por lo que espero agregar mas tecnologias a la lista anterior.
+					Me apasiona el código.
+					Actualmente soy Front-End Developer. Hago Web App's con JavaScript, implementando herramientas como React.js, Node.js, Materialize y Bootstrap. Me forje en el código en Laboratoria, pero como el mundo no se detiene, me considero estudiante de por vida y me gusta ser autodidacta, por lo que espero agregar mas tecnologías a la lista anterior.
 					
 				</p>
 			</div>
