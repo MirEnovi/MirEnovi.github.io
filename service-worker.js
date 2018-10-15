@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/Mirian-G-Portafolio/precache-manifest.a9378825b56f8523583eb2329e45a079.js"
+  "/Mirian-G-Portafolio/precache-manifest.c2c514e4f748153d27db5f8157f37374.js"
 );
 
 workbox.clientsClaim();
