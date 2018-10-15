@@ -9,6 +9,7 @@ class Nav extends Component {
 	render() {
 		return (
 			<Navbar brand={
+				// <img src = {logo} alt = 'logo' width = '40em' height = 'auto' />
 				<p className = 'text-nav'>Mirian García</p>
 				} 
 				left className = 'amber blue-grey-text text-darken-3'>
