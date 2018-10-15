@@ -1,5 +1,5 @@
 import React from 'react';
-import './inicio.css';
+import './aboutme.css';
 
 import img1 from '../../assets/logo2.png';
 import img2 from '../../assets/nodejs.jpg';
@@ -9,7 +9,7 @@ import img5 from '../../assets/js.gif'
 
 import { Carousel } from 'react-materialize';
 
-const Inicio = (props) => {
+const Aboutme = (props) => {
 	return (
 		<section className = 'row inicio text-body'>
 			<div className = 'col s12 m5'>
@@ -37,4 +37,4 @@ const Inicio = (props) => {
 	)
 }
 
-export default Inicio;
+export default Aboutme;

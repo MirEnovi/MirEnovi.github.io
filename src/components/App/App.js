@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Nav from '../global/nav/nav';
-import Inicio from '../global/inicio/lnicio';
+import Aboutme from '../global/aboutme/aboutme';
+
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Nav/>
-          <Inicio/>
+          <Aboutme/>
         </header>
       </div>
     );
