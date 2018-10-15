@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './nav.css';
 import { Navbar, NavItem } from 'react-materialize';
 
-import logo from '../../assets/logo1.png';
+// import logo from '../../assets/logo1.png';
 
 class Nav extends Component {
 	render() {
