@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=K2D');
+
+
+.color {
+	background: rgba(41, 38, 23, 0.363);
+	box-shadow: 5px -1px 20px 0px rgba(247, 203, 7, 0.335);
+}
+
 .text-nav {
 	font-family: 'K2D', sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: bold;
-	/* text-shadow: 1px 4px 1px rgba(71, 19, 19, 0.904); */
+	color: rgb(250, 248, 248);
+}
+
+.mir {
+	font-size: 1em;
+	text-shadow:
+		-2px 2px 0 #000,
+		1px 4px 0 #000;
 }
