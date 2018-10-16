@@ -1,0 +1,48 @@
+.background-home {
+    background: url(../../assets/backg4.png) no-repeat center center;
+    background-size: cover;    
+}
+.background-carusel {
+    width: 85%;
+    height: 53vh;
+    margin-top: 2.5em;
+    border-radius: 2em
+}
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.photo-home {
+    width: 100%;
+    height: 50vh;
+    margin-top: .45em;
+    border-radius: 2em;
+}
+
+.text-home {
+    margin-top: 5em;
+	font-family: 'K2D', sans-serif;
+	font-size: .8m;
+	font-weight: bold;
+    color: rgb(250, 248, 248);
+	text-shadow:
+		-1px 1px 0 #000,
+		1px 4px 0 #000;
+}
+
+@media screen and (max-width: 588px) {
+    .photo-mir {
+        margin-top: .8em;
+        width: 70%;
+        height: 45vh;
+    }
+    .text-home {
+        margin-top: .5em;
+    }
+    .background-carusel {
+        margin-top: 3.3em;
+    }
+}

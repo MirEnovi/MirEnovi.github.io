@@ -9,19 +9,20 @@ class Nav extends Component {
 	render() {
 		return (
 			<Navbar brand={
-				// <img src = {logo} alt = 'logo' width = '40em' height = 'auto' />
-				<p className = 'text-nav'>Mirian García</p>
+				<p className = 'text-nav mir'>Mirian García</p>
 				} 
-				left className = 'amber blue-grey-text text-darken-3'>
+				fixed = 'true'
+				left 
+				className = 'color '>
 				{/* <ul id = 'nav-mobile' > */}
 					<NavItem>
-						<a className = 'blue-grey-text text-darken-3 text-nav' href='badges.html'>Acerca de Mí</a>
+						<a className = ' text-nav' href='badges.html'>Acerca de Mí</a>
 					</NavItem>
 					<NavItem>
-						<a className = 'blue-grey-text text-darken-3 text-nav' href='badges.html'>Portafolio</a>
+						<a className = ' text-nav' href='badges.html'>Portafolio</a>
 					</NavItem>
 					<NavItem>
-						<a className = 'blue-grey-text text-darken-3 text-nav' href='collapsible.html'>Contacto</a>
+						<a className = ' text-nav' href='collapsible.html'>Contacto</a>
 					</NavItem>
 				{/* </ul> */}
 			</Navbar>
