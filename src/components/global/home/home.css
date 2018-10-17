@@ -1,8 +1,8 @@
 .background-home {
-    background: url(../../assets/backg4.png) no-repeat center center;
+    background: url(../../assets/backg.jpg) no-repeat center center;
     background-size: cover;    
 }
-.background-carusel {
+.background-div {
     width: 85%;
     height: 53vh;
     margin-top: 2.5em;
@@ -34,15 +34,15 @@
 }
 
 @media screen and (max-width: 588px) {
-    .photo-mir {
-        margin-top: .8em;
-        width: 70%;
-        height: 45vh;
+    .photo-home {
+        margin-top: 1.8em;
+        /* width: 70%; */
+        height: 25vh;
     }
     .text-home {
         margin-top: .5em;
     }
-    .background-carusel {
+    .background-div {
         margin-top: 3.3em;
     }
 }
