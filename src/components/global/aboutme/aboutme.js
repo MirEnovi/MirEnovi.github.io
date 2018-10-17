@@ -2,13 +2,7 @@ import React from 'react';
 import './aboutme.css';
 
 import PhotoMir from '../../assets/PhotoMir.png';
-// import img1 from '../../assets/logo2.png';
-// import img2 from '../../assets/nodejs.jpg';
-// import img3 from '../../assets/code.png';
-// import img4 from '../../assets/react.png';
-// import img5 from '../../assets/js.gif'
 
-import { Carousel } from 'react-materialize';
 
 const Aboutme = (props) => {
 	return (
@@ -25,20 +19,6 @@ const Aboutme = (props) => {
 			</div>
 			<div className = 'col s12 l5 offset-l1'>
 				<img src = {PhotoMir} alt = 'Mirian Garcia´s Photo' className = 'photo-mir ' />
-				{/* <Carousel
-					className ='responsive-img'
-					images={[
-						img1,
-						img2,
-						img3,
-						img4,
-						img5
-					]} 
-				/> */}
-				{/* <br/>
-				<br/>
-				<br/>
-				<br/> */}
 				<div class="divider"></div>
 			</div>
 		</section>
