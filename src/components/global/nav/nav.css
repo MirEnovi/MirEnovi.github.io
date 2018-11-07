@@ -8,7 +8,7 @@
 
 .text-nav {
 	font-family: 'K2D', sans-serif;
-	font-size: 1em;
+	font-size: .8em;
 	font-weight: bold;
 	color: rgb(250, 248, 248);
 }
@@ -18,4 +18,8 @@
 	text-shadow:
 		-2px 2px 0 #000,
 		1px 4px 0 #000;
+}
+
+.size {
+	height: 2em;
 }
