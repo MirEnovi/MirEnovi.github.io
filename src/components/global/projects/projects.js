@@ -10,7 +10,7 @@ const Projects = () => {
 
 	const projectsCard = infoProjects.map((project,index) => {
 		return (
-			<div key={`card-${index}`} className='col s12 l3'>
+			<div key={`card-${index}`} className='col s10 m4 l3 offset-s1'>
 				<Card
 					title={project.title}
 					link={project.link}
