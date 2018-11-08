@@ -2,6 +2,7 @@
 	font-family: 'K2D', sans-serif;
   font-size: calc(.8em + 1vmin); 
 	text-align: left;
+	width: 100%;
 }
 
 .tex-link-f {
