@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "63305fafd25686e7619e2cf9fbc5f852",
+    "url": "/static/media/logoMir.63305faf.png"
+  },
+  {
     "revision": "8bcfaef95f0b4d36d0c13794c0b23f05",
     "url": "/static/media/js.8bcfaef9.gif"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "0879f1ba8d3d86d96ed0",
-    "url": "/static/js/main.0879f1ba.chunk.js"
+    "revision": "2552817ca2dda7f92cb6",
+    "url": "/static/js/main.2552817c.chunk.js"
   },
   {
-    "revision": "e992d7046378be6569ae",
-    "url": "/static/js/1.e992d704.chunk.js"
+    "revision": "f49d05b2ab6058d169d4",
+    "url": "/static/js/1.f49d05b2.chunk.js"
   },
   {
-    "revision": "0879f1ba8d3d86d96ed0",
-    "url": "/static/css/main.450b3109.chunk.css"
+    "revision": "2552817ca2dda7f92cb6",
+    "url": "/static/css/main.3dfc2c84.chunk.css"
   },
   {
-    "revision": "7a999d8cfca77b0fe51e5c6252f51edc",
+    "revision": "dfc26e86a7e9798636f1f74b2a2b101f",
     "url": "/index.html"
   }
 ];
