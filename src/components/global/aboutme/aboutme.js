@@ -24,7 +24,7 @@ const Aboutme = (props) => {
 			<div className='row'>
 				<i className="devicon  devicon-html5-plain-wordmark col s4 m2 l2"></i>
 				<i className="devicon devicon-javascript-plain col s4 m2 l2"></i>
-				<i className="devicon devicon-react-original col s4 m2 l2"></i>
+				<i className="devicon devicon-react-original-wordmark col s4 m2 l2"></i>
 				<i className="devicon devicon-git-plain-wordmark col s4 m2 l2"></i>
 				<i className="devicon devicon-nodejs-plain-wordmark col s4 m2 l2"></i>
 				<i className="devicon devicon-visualstudio-plain-wordmark col s4 m2 l2"></i>
