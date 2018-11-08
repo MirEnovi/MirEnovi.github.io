@@ -2,8 +2,7 @@
 
 
 .color-nav {
-	background: rgb(7, 7, 6);
-	/* background: #263238ab; */
+	background: rgba(7, 7, 6, 0.931);
 	box-shadow: 1px -.5px 3px .5px rgb(122, 101, 9, 3);
 }
 
@@ -28,10 +27,10 @@
 
 @media screen and (max-width: 600px) {
 	.text-nav {
-		font-size: calc(1em - .8vmin);
+		font-size: calc(1em - .3vmin);
 	}
 	.mir {
-		font-size: calc(1.2em - .8vmin);
+		font-size: calc(1.5em - .3vmin);
 	}
 	.garcia-nav {
 		display: none;
