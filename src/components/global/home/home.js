@@ -10,14 +10,14 @@ const Home = () => {
 	return (
 		<section className ='background-home'>
 			<div className = 'row home'>
-				<dic className = 'col s10 m6 l6 offset-s1 offset-m1 offset-l1 background-div'>
+				<div className = 'col s10 m6 l6 offset-s1 offset-m1 offset-l1 background-div'>
 					<img src = {img5} alt = 'Logo' className = 'col s12 photo-home' />
-				</dic>
+				</div>
 				<div className = 'col s10 m5 l5 text-home'>
-					<h2>Front-End Developer</h2>
+					<h3>Mirian Ivonne García Hernandez</h3>
+					<h5>Front-End Developer</h5>
 				</div>
 			</div>
-			<div class="divider"></div>
 		</section>
 	)
 }
