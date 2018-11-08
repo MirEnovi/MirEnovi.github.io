@@ -11,19 +11,19 @@ export default [
     {
         title: 'My Little Secret',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-am-cipher/src/index.html',
-        info:'Pagina pensada para introducir un mensaje y cifrarlo pata que solo la persona que tenga la clave pueda decifrar y leer el mensaje original',
+        info:'Web app que cifra un mensaje para que solo la persona que tenga una clave numérica pueda decifrar y leer el mensaje original',
         image: cipher
     },
     {
         title: 'Data Dashboard',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/',
-        info:'Esta es una página web creada para la fácil consulta de información sobre las estudiantes del Bootcamp Laboratoria, pensada en específico para las personas en el puesto de Training Managers. User: admin Pasword:123admin',
+        info:'Web app creada para la fácil consulta de información sobre las estudiantes del Bootcamp de Laboratoria. Usuario: admin Contraseña:123admin',
         image: data
     },
     {
         title: 'Food Map',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-pm-foodmap/src/',
-        info:'Una web-app que a través de un input filtra los restaurantes que se encuentran cerca de ti',
+        info:'Web app que hace una búsqueda de los restaurantes que se encuentran cerca de ti',
         image: foodmap
     },
     {
@@ -35,7 +35,7 @@ export default [
     {
         title: 'B-pay/Mobil',
         link: 'https://mirenovi.github.io/BBVAHack/responsive-web/public/first-view.html',
-        info:'Es una aplicacion web,pensada en los usuarios que manejan telefonos de baja gama,en los cuales su telefono no soporta la aplicacion nativa pero se ha pensado en la inclusion permitiendoles acceder desde cual buscador web. Hackathon BBVA 2018',
+        info:'Web app, pensada en los usuarios que manejan telefonos de baja gama,en los cuales su telefono no soporta la aplicacion nativa pero se ha pensado en la inclusion permitiendoles acceder desde cual buscador web. Hackathon BBVA 2018',
         image: bpay
     },
     {
