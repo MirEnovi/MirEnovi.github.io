@@ -45,11 +45,11 @@ const Contact = () => {
 								<li><a href='https://slack.com/intl/es-es/' className='tex-link-f'>
 									<i className="devicon-footer devicon-slack-plain grey-text text-lighten-3"></i> MirIvonne
 								</a></li>
-								<li><a href='mailto:garciaivonne11@gmail.com' className='tex-link-f'>
-									<i className="devicon-footer devicon-google-plain grey-text text-lighten-3"></i> garciaivonne11@gmail.com
+								<li><a href='mailto:garciaivonne11@gmail.com' className='tex-link-f footer-mail'>
+									<i className="devicon-footer  devicon-google-plain grey-text text-lighten-3"></i> garciaivonne11@gmail.com
 								</a></li>
 								<li><a href='https://twitter.com/mirenovi' className='tex-link-f'>
-									<i className="devicon-footer devicon-twitter-plain grey-text text-lighten-3"></i> @MirIvonne
+									<i className="devicon-footer devicon-twitter-plain grey-text text-lighten-3"></i>@MirIvonne
 								</a></li>
 								<li><a href='https://www.linkedin.com/in/MirianGarcia/' className='tex-link-f valign-wrapper'>
 									<img src={Linkedin} alt='Linkedin' className='icon-footer'/>
