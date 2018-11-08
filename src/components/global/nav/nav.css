@@ -1,25 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=K2D');
 
 
-.color {
-	background: rgba(41, 38, 23, 0.363);
-	box-shadow: 5px -1px 5px 0px rgba(247, 203, 7, 0.335);
+.color-nav {
+	background: rgb(7, 7, 6);
+	/* background: #263238ab; */
+	box-shadow: 1px -.5px 3px .5px rgb(122, 101, 9, 3);
 }
 
 .text-nav {
+	display: flex;
 	font-family: 'K2D', sans-serif;
-	font-size: .8em;
+	font-size: 1.2em;
 	font-weight: bold;
 	color: rgb(250, 248, 248);
 }
 
 .mir {
-	font-size: 1em;
+	font-size: 1.6em;
 	text-shadow:
 		-2px 2px 0 #000,
 		1px 4px 0 #000;
 }
 
 .size {
-	height: 2em;
+	height: 4em;
+}
+
+@media screen and (max-width: 600px) {
+	.text-nav {
+		font-size: calc(1em - .8vmin);
+	}
+	.mir {
+		font-size: calc(1.2em - .8vmin);
+	}
+	.garcia-nav {
+		display: none;
+	}
+	nav ul a {
+		padding: 0px 5px !important;
+	}
 }

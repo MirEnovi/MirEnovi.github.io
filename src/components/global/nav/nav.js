@@ -9,41 +9,24 @@ import logo from '../../assets/logoMir.png';
 class Nav extends Component {
 	render() {
 		return (
-			<header className='row color navbar-fixed'>
-				<nav className = 'color right'>
-					<ul className='left col m7 '>
-						<li><a href='#' className='text-nav'>Acerca de Mí</a></li>
-						<li><a href='#' className='text-nav'>Proyectos</a></li>
-						<li><a href='#' className='text-nav'>Tecnologías</a></li>
+			<header className='navbar-fixed '>
+				<nav className = 'color-nav '>
+					<ul clssName='col s2 m5 left'>
+						<li><a href='#' className='hide-on-small-only'> 
+							<img src={logo} alt='Logo' className =' size'/>
+						</a></li>
+						<li><a href='#' className = 'text-nav mir'>Mir 
+						<span className='garcia-nav'>ian García</span>
+						</a></li>
+					</ul>
+					<ul className='col s10 m7 l8 right'>
+						<li><a href='#' className='text-nav truncate'>Acerca de Mí</a></li>
+						<li><a href='#' onClick className='text-nav'>Proyectos</a></li>
+						<li><a href='#' className='text-nav'>Skills</a></li>
 						<li><a href='#' className='text-nav'>Contacto</a></li>
 					</ul>
-					<ul className='col m3'>
-						<li><a href='#' className='brand-logo right'> 
-							<img src={logo} alt='Logo Mir' className ='hide-on-small-only size'/>
-						</a></li>
-						<li><a href='collapsible.html' className = 'text-nav mir'>Mirian García</a></li>
-				</ul>
 				</nav>
 			</header>
-			// <Navbar brand={
-			// 	<p className = 'text-nav mir'>Mirian García</p>
-			// 	} 
-			// 	fixed = 'true'
-			// 	left 
-			// 	className = 'color '>
-			// 	{/* <ul id = 'nav-mobile' > */}
-			// 		<NavItem>
-			// 			<a className = ' text-nav' href='badges.html'>Acerca de Mí</a>
-			// 		</NavItem>
-			// 		<NavItem>
-			// 			<a className = ' text-nav' href='badges.html'>Portafolio</a>
-			// 		</NavItem>
-			// 		<NavItem>
-			// 			<a className = ' text-nav' href='collapsible.html'>Contacto</a>
-			// 		</NavItem>
-			// 	{/* </ul> */}
-			// </Navbar>
-
 		)
 	}
 }
