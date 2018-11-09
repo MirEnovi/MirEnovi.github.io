@@ -14,6 +14,7 @@ const Projects = () => {
 				<Card
 					title={project.title}
 					link={project.link}
+					code={project.code}
 					info={project.info}
 					image={project.image}
 				/>

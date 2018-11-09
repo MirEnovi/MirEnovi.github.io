@@ -9,14 +9,14 @@ const Aboutme = (props) => {
 		<section className='aboutme'>
 			<div className = 'row text-body'>
 				<div className = 'col s12 l6 offset-l1'>
-					<h4 className = 'valign-wrapper'>Hola, soy Mir</h4>
+					<h4 className = 'valign-wrapper mir-about'>Hola, soy Mirian Garcia</h4>
 					<p >
-						Me apasiona el código y viajar y conocer lugares nuevos.<br/>
-						Actualmente soy Front-End Developer. Hago Web Apps con JavaScript, implementando herramientas como React.js, Node.js, Materialize y Bootstrap.<br/> 
-						Me forje en el código en Laboratoria, pero como el mundo no se detiene, me considero estudiante de por vida y me gusta ser autodidacta, por lo que espero agregar más tecnologías a mi lista de habilidades.
+						Front-End Developer, Mexicana,  apasionada por el codigo, los viajes, Sudoku, Japon, y peliculas 35mm.<br/>
+						Actulmente me dedico a hacer Web Apps con JavaScript, implementando herramientas como React.js, Node.js, Materialize y Bootstrap.<br/>
+						Me forje en Laboratoria, pero como el mundo no se detiene, me considero estudiante de por vida y me gusta ser y siempre he sido autodidacta, por lo que espero agregar más tecnologías a mi lista de habilidades.
 					</p>
 				</div>
-				<div className = 'col s12 l3 offset-l1 rigth'>
+				<div className = 'col s6 m5 l3 offset-s2 offset-m5 offset-l1  rigth'>
 					<img src = {PhotoMir} alt='Mir' className = 'photo-mir shadow' />
 				</div>
 			</div>

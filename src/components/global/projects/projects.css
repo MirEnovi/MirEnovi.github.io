@@ -1,12 +1,12 @@
 .projects {
 	font-size: calc(1em + 1vmin); 
 	color: #FFFFFF;
-	margin-top: 3em;
+	margin-top: 2.95em;
 	width: 100%;
 }
 
 .card{
-	height: 48vh;
+	height: 60vh;
 	color: black;
 }
 
@@ -16,14 +16,35 @@
 
 @media screen and (max-width: 588px) {
 	.title-projects{
-		margin-top: 3em;
+		margin-top: 2em;
 	}
 	.projects {
-		/* font-size: .5em;  */
 		margin-top: 1em;
 		height: 100%;
 	}
 	.card {
 		height: 60vh;
+	}
+}
+
+@media screen and (max-width: 966px){
+	.projects{
+		margin-top: 5em;
+	}
+}
+
+@media screen and (max-height: 500px) and (max-width: 685px){
+	.title-projects{
+		margin-top: 13em !important;
+	}
+	.projects{
+		margin-top: 5em !important;
+		font-size: 1.5em;
+	}
+	.card {
+		height: 90vh;
+	}
+	.card-title {
+		font-size: .8em !important;
 	}
 }

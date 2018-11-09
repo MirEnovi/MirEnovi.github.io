@@ -18,6 +18,10 @@
 	border-radius: 3em;
 }
 
+.mir-about {
+	text-align: left;
+}
+
 .shadow {
 	box-shadow: 1px -.5px 3px .5px rgb(7, 7, 6, 0.671);
 }
@@ -33,13 +37,14 @@
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
-
+	margin-top: 1em;
 }
 
 
 @media screen and (max-width: 588px) {
 	.aboutme {
 		height: 100%;
+		margin-bottom: 2em !important;
 	}
 	.text-body {
 		font-size: calc(.9em + 1vmin);
@@ -47,5 +52,11 @@
 	.photo-mir {
 		display: flex;
 		height: 35vh;
+	}
+}
+
+@media screen and (max-width: 966px){
+	.aboutme {
+		margin-bottom: 10em;
 	}
 }

@@ -27,10 +27,10 @@
 
 @media screen and (max-width: 600px) {
 	.text-nav {
-		font-size: calc(1em - .3vmin);
+		font-size: calc(1.3em - .3vmin);
 	}
 	.mir {
-		font-size: calc(1.5em - .3vmin);
+		font-size: calc(1.7em - .2vmin);
 	}
 	.garcia-nav {
 		display: none;
