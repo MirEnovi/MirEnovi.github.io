@@ -1,20 +1,32 @@
 .projects {
-	font-size: calc(1em + 1vmin); 
-	color: #FFFFFF;
-	margin-top: 2.95em;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 1em;
 	width: 100%;
 }
 
 .card{
-	height: 60vh;
+	height: 50vh;
 	color: black;
 }
 
 .title-projects{
-	margin-bottom: 1.5em;
+	font-size: 1.9em;
+	margin-bottom: 1em;
+	color: #ffffff;
 }
 
-@media screen and (max-width: 588px) {
+.c-click-text {
+	color: #ffffff !important;
+	font-size: .7rem;
+	font-style: oblique;
+}
+.c-title {
+	font-size: 1rem;
+	font-weight: bold;
+	margin: .5rem;
+}
+
+@media screen and (max-width: 600px) {
 	.title-projects{
 		margin-top: 2em;
 	}
@@ -23,7 +35,10 @@
 		height: 100%;
 	}
 	.card {
-		height: 60vh;
+		/* height: 40vh; */
+	}
+	.c-title {
+		font-size: 1.2rem;
 	}
 }
 
@@ -31,9 +46,12 @@
 	.projects{
 		margin-top: 5em;
 	}
-}
+	.card {
+		height: 53vh;
+	}
+} 
 
-@media screen and (max-height: 500px) and (max-width: 685px){
+/* @media screen and (max-height: 500px) and (max-width: 700px){
 	.title-projects{
 		margin-top: 13em !important;
 	}
@@ -47,4 +65,4 @@
 	.card-title {
 		font-size: .8em !important;
 	}
-}
+} */

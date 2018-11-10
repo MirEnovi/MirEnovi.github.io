@@ -9,8 +9,8 @@ import img5 from '../../assets/js.gif';
 const Home = () => {
 	return (
 		<section className ='background-home'>
-			<div className = 'row home'>
-				<div className = 'col s10 m6 l6 offset-s1 offset-m1 offset-l1 background-div'>
+			<div className = 'row'>
+				<div className = 'col s10 m8 l6 offset-s1 offset-m1 offset-l1 background-div'>
 					<img src = {img5} alt = 'Logo' className = 'col s12 photo-home' />
 				</div>
 				<div className = 'col s10 m5 l5 text-home'>

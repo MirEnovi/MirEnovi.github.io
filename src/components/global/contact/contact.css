@@ -11,16 +11,15 @@
 }
 
 .icon-footer {
-	height: 3rem;
-	margin-top: .4em;
+	height: 2rem;
+	margin: .5em;
 }
 
 .devicon-footer {
-	font-size: 2.3rem;
-	margin-top: .4em;
+	font-size: 2rem;
+	margin: .4em;
 }
 
-.footer-mail {
-	font-size: 1.1rem;
-
+.devicon-footer-t {
+	margin: .5em;
 }

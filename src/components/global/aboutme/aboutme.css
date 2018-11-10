@@ -1,3 +1,9 @@
+.aboutme {
+	color: #FFFFFF;
+	margin-top: 5em;
+	width: 100%;
+	height: 100vh;
+}
 
 .text-body {
 	font-family: 'Montserrat', sans-serif;
@@ -5,12 +11,6 @@
 	text-align: justify;
 }
 
-.aboutme {
-	color: #FFFFFF;
-	margin-top: 5em;
-	width: 100%;
-	height: 100vh;
-}
 
 .photo-mir {
 	height: 50vh;

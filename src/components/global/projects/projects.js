@@ -22,14 +22,17 @@ const Projects = () => {
 		)
 	})
 	return (
-		<React.Fragment>
-			<section className='row projects'>
-				<h4 className = 'title-projects'>Mis Proyectos</h4>
-				<div className='row'>
-					{projectsCard}
-				</div>
-			</section>
-		</React.Fragment>
+		<section className='containter projects'>
+		<div className='row'>
+			<h4 className = 'title-projects'>Mis Proyectos</h4>
+		</div>
+			
+			<div className='row'>
+			<div className='col s12 l10 offset-l1'>
+				{projectsCard}
+			</div>
+			</div>
+		</section>
 	);
 };
 

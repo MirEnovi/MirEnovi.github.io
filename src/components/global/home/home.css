@@ -1,48 +1,43 @@
 .background-home {
-    background: url(../../assets/backg.jpg) no-repeat center center;
+    background: url(../../assets/backg.jpg);
     background-size: cover;
-    height: 95vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
 .background-div {
-    width: 85%;
+    width: 100%;
     height: 53vh;
     margin-top: 2em;
     border-radius: 2em
 }
 
 
-.home {
-    width: 100%;
-    height: 95vh;
-}
-
 .photo-home {
     width: 100%;
     height: 50vh;
-    margin-top: 1em;
+    margin-top: 2.5em;
     border-radius: 2em;
 }
 
 .text-home {
-    /* margin-top: 3em; */
+    margin-top: 5em;
 	font-family: 'K2D', sans-serif;
 	font-size: .9m;
 	font-weight: bold;
     color: rgb(250, 248, 248);
 	text-shadow:
 		-1px 1px 0 #000,
-		1px 4px 0 #000;
+		1px 3px 0 #000;
 }
 
-@media screen and (max-width: 588px) {
+@media screen and (max-width: 1000px) {
     .photo-home {
         margin-top: .5em;
-        height: 25vh;
+        height: 35vh;
     }
     .text-home {
-        margin-bottom: 5em;
-    }
-    .background-div {
-        height: 30vh;
+        margin-top: .5em;
     }
 }

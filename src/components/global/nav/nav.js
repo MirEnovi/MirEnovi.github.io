@@ -7,8 +7,8 @@ import logo from '../../assets/logoMir.png';
 
 const Nav = () => {
 	return (
-		<header className='navbar-fixed '>
-			<nav className = 'color-nav '>
+		<header className='navbar-fixed'>
+			<nav className = 'color-nav'>
 				<ul className='col s2 m5 left'>
 					<li><a href='#' className='hide-on-small-only'> 
 						<img src={logo} alt='Logo' className =' size'/>
