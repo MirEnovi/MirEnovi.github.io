@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = (props) => {
 	return (
-		<div className='card card-panel grey darken-4'>
+		<div className='card card-panel black'>
 			<div className='card-image waves-effect waves-block waves-light'>
 				<img className='activator' src={props.image} alt={props.title}/>
 			</div>

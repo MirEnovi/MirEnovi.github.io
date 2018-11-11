@@ -23,14 +23,11 @@ const Projects = () => {
 	})
 	return (
 		<section className='containter projects'>
-		<div className='row'>
-			<h4 className = 'title-projects'>Mis Proyectos</h4>
-		</div>
-			
 			<div className='row'>
-			<div className='col s12 l10 offset-l1'>
-				{projectsCard}
+				<h4 className = 'title-project'>Mis Proyectos</h4>
 			</div>
+			<div className='row'>
+				{ projectsCard }
 			</div>
 		</section>
 	);

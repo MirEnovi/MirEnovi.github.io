@@ -2,7 +2,12 @@
 	font-family: 'K2D', sans-serif;
   font-size: calc(.8em + 1vmin); 
 	text-align: left;
-	width: 100%;
+  width: 100%;
+	margin-top: 10em;
+
+}
+.black {
+	background-color: #0C0C0B !important;
 }
 
 .tex-link-f {
@@ -17,9 +22,15 @@
 
 .devicon-footer {
 	font-size: 2rem;
-	margin: .4em;
+	margin: .2em;
 }
 
 .devicon-footer-t {
 	margin: .5em;
+}
+
+@media screen and (max-width: 966px){
+  .contact {
+    margin-top: 12em;
+  }
 }
