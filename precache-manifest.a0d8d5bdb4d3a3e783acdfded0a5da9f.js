@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/DataDashboard.cea2ce98.png"
   },
   {
-    "revision": "048e6033802dc29f0c25",
-    "url": "/static/css/main.345d7c86.chunk.css"
+    "revision": "825ec0041cf4c712d1bb",
+    "url": "/static/css/main.c90b05fc.chunk.css"
   },
   {
-    "revision": "7b2e0d6827ae287b51a8",
-    "url": "/static/js/1.7b2e0d68.chunk.js"
+    "revision": "e3496091e711278b0860",
+    "url": "/static/js/1.e3496091.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -18,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "63305fafd25686e7619e2cf9fbc5f852",
     "url": "/static/media/logoMir.63305faf.png"
+  },
+  {
+    "revision": "5c3ff8500484e0a7e68fd7f3cef91e16",
+    "url": "/static/media/PhotoMirSmall.5c3ff850.png"
   },
   {
     "revision": "692f5464eeda4ab796bbe30def41e149",
@@ -32,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/cipher.a400a42e.png"
   },
   {
-    "revision": "048e6033802dc29f0c25",
-    "url": "/static/js/main.048e6033.chunk.js"
+    "revision": "825ec0041cf4c712d1bb",
+    "url": "/static/js/main.825ec004.chunk.js"
   },
   {
     "revision": "a8bffc2db690685553b807c5547a81d7",
@@ -64,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/fondo.51c89902.png"
   },
   {
-    "revision": "c39ad67d30713b0ecb4e68442d9508ba",
+    "revision": "97e95456de810f800055eb3faff1d3f5",
     "url": "/index.html"
   }
 ];
