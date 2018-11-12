@@ -57,7 +57,7 @@
 	}
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
 	.projects{
 		margin-top: 35em;
 		height: 150% !important;
@@ -68,3 +68,8 @@
 	}
 } 
 
+@media screen and (max-width: 890px){
+	.projects{
+		height: ;
+	}
+}
