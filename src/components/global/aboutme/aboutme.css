@@ -40,17 +40,20 @@
 	margin-top: 3em;
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 400px){
 	.aboutme {
-		height: 135vh !important;
-		/* margin */
-
+		height: 125vh !important;
 	}
 }
+/* @media screen and (max-width: 400px){
+	.aboutme {
+		height: 125vh !important;
+	}
+} */
 
 @media screen and (max-width: 772px) {
 	.aboutme {
-		height: 130vh;
+		height: 110vh;
 		margin-bottom: 5em;
 	}
 	.text-body {

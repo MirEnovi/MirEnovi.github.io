@@ -34,7 +34,7 @@
 @media screen and (max-width: 1000px) {
     .photo-home {
         margin-top: .5em;
-        height: 230px;
+        height: 200px !important;
     }
     .text-home {
         margin-top: .5em;
@@ -50,5 +50,11 @@
     }
     .background-div,.text-home{
         margin-top: 30em;
+    }
+}
+
+@media screen and (max-height: 460px) {
+    .background-home {
+        height: 140vh !important;
     }
 }
