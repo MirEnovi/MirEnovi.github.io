@@ -2,12 +2,12 @@
 
 
 .color-nav {
+	margin: 0;
 	background: rgba(7, 7, 6, 0.931);
 	box-shadow: 1px -.5px 3px .5px rgb(122, 101, 9, 3);
 }
 
 .text-nav {
-	/* display: flex; */
 	font-family: 'K2D', sans-serif;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -25,15 +25,33 @@
 	height: 4em;
 }
 
+.navbar-fixed { z-index: 9999; }
+
+.height-nav-side {
+	height: 100vh;
+}
+
+.photo-mir-small {
+	display: center;
+	margin-top: 30px;
+	width: 175px;
+	height: 170px;
+	border-radius: 50%;
+}
+
+.text-nav-side {
+	font-family: 'K2D', sans-serif;
+	font-size: 1.5em;
+	/* font-weight: bold; */
+	color: rgb(250, 248, 248);
+}
+
 @media screen and (max-width: 600px) {
 	.text-nav {
 		font-size: calc(1.3em - .3vmin);
 	}
 	.mir {
 		font-size: calc(1.7em - .2vmin);
-	}
-	.garcia-nav {
-		display: none;
 	}
 	nav ul a {
 		padding: 0px 5px !important;
