@@ -1,8 +1,7 @@
 .projects {
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
-	height: 130vh;
-	/* margin-bottom: 5em; */
+	height: 50vh;
 }
 .title-project{
 	color: #ffffff;
@@ -35,35 +34,29 @@
 
 @media screen and (max-width: 420px) {
 	.projects{
-		/* margin-top: 40em; */
+		margin-top: 1em !important;
 		height: 150% !important;
-	}
-	.card {
-		height: 340px !important;
 	}
 }
 
 @media screen and (min-width: 421px) and (max-width: 600px) {
 	.projects {
 		margin-top: 1em;
-		height: 100%;
+		height: 80vh;
 	}
 
 	.c-title {
 		font-size: 1.2rem;
 	}
-	.card {
-		height: 450px !important;
-	}
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 991px){
 	.projects{
-		margin-top: 35em;
-		height: 150% !important;
+		height: 105% !important;
+		
 	}
 	.card {
-		height: 300px;
-		width: 105%;
+		height: 445px;
+		/* width: 105%; */
 	}
 } 

@@ -28,7 +28,6 @@ const Contact = () => {
 								<li><a href='https://www.linkedin.com/in/MirianGarcia/' className='tex-link-f valign-wrapper'>
 									<img src={Linkedin} alt='Linkedin' className='icon-footer'/>Mirian García
 								</a></li>
-								<br/>
 								<li><a href='https://github.com/MirEnovi/' className='tex-link-f'>
 									<i className='devicon-footer devicon-github-plain grey-text text-lighten-3'></i> MirIvonne
 								</a></li>

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=K2D');
 
+.color-nav-link {
+	background-color: rgb(163, 134, 29);
+}
 
 .color-nav {
 	margin: 0;

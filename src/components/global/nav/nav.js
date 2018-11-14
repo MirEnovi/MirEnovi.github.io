@@ -9,7 +9,7 @@ import mirS from '../../assets/PhotoMirSmall.png';
 
 const Nav = () => {
 	return (
-		<header className='navbar-fixed'>
+		<header className= 'navbar-fixed'>
 			<nav className = 'color-nav row'>
 				<div className= ' offset-s1 col s2 hide-on-med-and-up left valign-wrapper'>
 					<SideNav
@@ -22,17 +22,17 @@ const Nav = () => {
 							<SideNavItem divider />
 							<p className='text-nav-side' >Mirian Ivonne García</p>
 							<SideNavItem divider />
-							<SideNavItem href='#aboutme' icon='person' className='amber accent-2' > 
+							<SideNavItem href='#' icon='home' className='color-nav-link'>
+								<p className='text-nav-side'>Inicio</p>
+							</SideNavItem>
+							<SideNavItem href='#aboutme' icon='person' className='color-nav-link' > 
 								<p className='text-nav-side'>Acerca de Mí</p>
 							</SideNavItem>
-							<SideNavItem href='#projects' icon='work' className='amber accent-2'>
+							<SideNavItem href='#projects' icon='work' className='color-nav-link'>
 								<p className='text-nav-side'>Proyectos</p>
 							</SideNavItem>
-							<SideNavItem href='#contact' icon='contact_mail' className='amber accent-2'>
+							<SideNavItem href='#contact' icon='contact_mail' className='color-nav-link'>
 								<p className='text-nav-side'>Contacto</p>
-							</SideNavItem>
-							<SideNavItem href='#' icon='home' className='amber accent-2'>
-								<p className='text-nav-side'>Inicio</p>
 							</SideNavItem>
 						</div>						
 					</SideNav>
