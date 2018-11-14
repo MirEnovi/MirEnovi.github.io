@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "cea2ce9834e96c7e5fb4e04d9198000a",
-    "url": "/static/media/DataDashboard.cea2ce98.png"
+    "revision": "8bcfaef95f0b4d36d0c13794c0b23f05",
+    "url": "/static/media/js.8bcfaef9.gif"
   },
   {
-    "revision": "4c2fbe62fd38ad067f2e",
-    "url": "/static/css/main.c90b05fc.chunk.css"
+    "revision": "a9c00d5fb4bbdcebe9d0",
+    "url": "/static/css/main.69443626.chunk.css"
   },
   {
-    "revision": "e3496091e711278b0860",
-    "url": "/static/js/1.e3496091.chunk.js"
+    "revision": "1d3203a47c756d459dad",
+    "url": "/static/js/1.1d3203a4.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,32 +28,16 @@ self.__precacheManifest = [
     "url": "/static/media/PhotoMir.692f5464.png"
   },
   {
-    "revision": "8bcfaef95f0b4d36d0c13794c0b23f05",
-    "url": "/static/media/js.8bcfaef9.gif"
+    "revision": "a9c00d5fb4bbdcebe9d0",
+    "url": "/static/js/main.a9c00d5f.chunk.js"
   },
   {
-    "revision": "a400a42e479a3d32e2d2211c38fa84ef",
-    "url": "/static/media/cipher.a400a42e.png"
-  },
-  {
-    "revision": "4c2fbe62fd38ad067f2e",
-    "url": "/static/js/main.4c2fbe62.chunk.js"
+    "revision": "cea2ce9834e96c7e5fb4e04d9198000a",
+    "url": "/static/media/DataDashboard.cea2ce98.png"
   },
   {
     "revision": "a8bffc2db690685553b807c5547a81d7",
     "url": "/static/media/foodmap.a8bffc2d.png"
-  },
-  {
-    "revision": "bc4aa598e67258101d6d956956b02d9e",
-    "url": "/static/media/Registro.bc4aa598.png"
-  },
-  {
-    "revision": "39553a74deeef0b250211995795cb205",
-    "url": "/static/media/Bpay.39553a74.png"
-  },
-  {
-    "revision": "b12dd15a72adb788f99665359bd15706",
-    "url": "/static/media/ApiMovie.b12dd15a.png"
   },
   {
     "revision": "219b01818a2dbfef4b6661a6cf6af42b",
@@ -68,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/fondo.51c89902.png"
   },
   {
-    "revision": "c8a6c626515ce519057a317c912735c4",
+    "revision": "602874427fea919d5f86cbaa4adf7729",
     "url": "/index.html"
   }
 ];
