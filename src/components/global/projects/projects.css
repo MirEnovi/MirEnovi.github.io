@@ -12,7 +12,8 @@
 
 .card{
 	height: 350px;
-	color: black;
+	color: #ffffff;
+	/* color: black; */
 }
 
 .title-projects{
@@ -27,10 +28,20 @@
 	font-style: oblique;
 }
 .c-title {
-	font-size: 1rem;
+	font-size: 1.5em;
 	font-weight: bold;
 	margin: .5rem;
 }
+
+.tec {
+	font-weight: bold;
+}
+
+.reve-card {
+	font-size: 1.2em;
+	background-color: rgb(58, 57, 55) !important;
+}
+
 
 @media screen and (max-width: 420px) {
 	.projects{

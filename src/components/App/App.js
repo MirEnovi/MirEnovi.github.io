@@ -7,6 +7,7 @@ import Aboutme from '../global/aboutme/aboutme';
 import Home from '../global/home/home';
 import Projects from '../global/projects/projects';
 import Contact from '../global/contact/contact';
+import Skills from '../global/skills/skills';
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Home/>
         <div id='aboutme'></div>
         <Aboutme/>
+        <Skills/>
         <div id='projects'></div>
         <Projects/>
         <div  id='contact'></div>

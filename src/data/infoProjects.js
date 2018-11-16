@@ -19,14 +19,16 @@ export default [
         title: 'Data Dashboard',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/',
         code:'https://github.com/MirEnovi/cdmx-2018-06-bc-core-am-data-dashboard',
-        info:'Web app que muestra de manera gráfica la información de las estudiantes del Bootcamp de Laboratoria. Usuario: admin Contraseña:123admin',
+        info:'Web app que muestra de manera gráfica la información de las estudiantes del Bootcamp de Laboratoria. Usuario: admin Contraseña:123admin.',
+        tec:' Tecnologías aplicadas: HTML 5, Javascript vainilla, Bootstrap.',
         image: data
     },
     {
         title: 'Food Map',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-pm-foodmap/src/',
         code:'https://github.com/MirEnovi/cdmx-2018-06-bc-core-pm-foodmap',
-        info:'Web app que hace una búsqueda de los restaurantes que se encuentran cerca de ti',
+        info:'Web app que hace una búsqueda de los restaurantes que se encuentran cerca de ti a partir de una palabra clave.',
+        tec:'Tecnologías aplicadas: HTML 5, Javascript vainilla, Bootstrap, API REST: Foursquare.',
         image: foodmap
     },
     // {
@@ -54,14 +56,16 @@ export default [
         title: 'Markdown Links',
         link: 'https://github.com/MirEnovi/cdmx-2018-01-FE-markdown',
         code: 'https://github.com/MirEnovi/cdmx-2018-01-FE-markdown',
-        info:' Librería de NodeJS que identifica los links de un archivo markdown y devuelve un objeto con las urls activas y aquellas que retornan error',
+        info:' Librería de NodeJS que identifica los links de un archivo markdown y devuelve un objeto con las urls activas y aquellas que retornan error.',
+        tec:'Tecnologías aplicadas: Javascript, NodeJS, NPM, CLI, Path.',
         image: mdl
     },
     {
         title: 'Burger Queen',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-am-burger-queen/',
         code: 'https://github.com/MirEnovi/cdmx-2018-06-bc-core-am-burger-queen',
-        info:'Web App que permite al cajero de un restaurante de comida rápida, tomar los pedidos en una tablet, y desde ahí enviarlos a cocina. Usuario: user@email.com, Contraseña: 123456',
+        info:'Web App que permite al cajero de un restaurante de comida rápida, tomar los pedidos en una tablet, y desde ahí enviarlos a cocina. Usuario: user@email.com, Contraseña: 123456.',
+        tec:'Tecnologías aplicadas: HTML 5, Javascript, React, Materialize, Firebase, React Router.',
         image: burger
     },
 ]

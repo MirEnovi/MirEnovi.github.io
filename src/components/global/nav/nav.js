@@ -11,7 +11,7 @@ const Nav = () => {
 	return (
 		<header className= 'navbar-fixed'>
 			<nav className = 'color-nav row'>
-				<div className= ' offset-s1 col s2 hide-on-med-and-up left valign-wrapper'>
+				<div className= 'col s2 offset-s1 offset-m0 hide-on-large-only left valign-wrapper'>
 					<SideNav
 						trigger={
 							<a><i class="material-icons">menu</i></a>}
@@ -28,6 +28,9 @@ const Nav = () => {
 							<SideNavItem href='#aboutme' icon='person' className='color-nav-link' > 
 								<p className='text-nav-side'>Acerca de Mí</p>
 							</SideNavItem>
+							<SideNavItem href='#skills' icon='person' className='color-nav-link' > 
+								<p className='text-nav-side'>Habilidades</p>
+							</SideNavItem>
 							<SideNavItem href='#projects' icon='work' className='color-nav-link'>
 								<p className='text-nav-side'>Proyectos</p>
 							</SideNavItem>
@@ -38,16 +41,17 @@ const Nav = () => {
 					</SideNav>
 				</div>
 
-				<ul className='col s8 m5 '>
+				<ul className='col s8 m5 l4'>
 					<li><a href='#' > 
 						<img src={logo} alt='Logo' className =' size'/>
 					</a></li>
-					<li><a href='#' className = 'text-nav mir'>Mir García
+					<li><a href='#' className = 'mir'>Mir García
 					</a></li>
 				</ul>
 
-				<ul className='col m7 l5 offset-l1 right hide-on-small-only'>
+				<ul className='col m7 l6 right hide-on-med-and-down'>
 					<li><a href='#aboutme' className='text-nav truncate'>Acerca de Mí</a></li>
+					<li><a href='#skills' className='text-nav truncate'>Habilidades</a></li>
 					<li><a href='#projects' className='text-nav'>Proyectos</a></li>
 					<li><a href='#contact' className='text-nav'>Contacto</a></li>
 				</ul>

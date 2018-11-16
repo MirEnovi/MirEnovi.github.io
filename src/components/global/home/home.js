@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<section className ='background-home'>
 			<div className = 'row'>
-				<div className = 'col s11 m8 l7 offset-m2 offset-l0  background-div'>
+				<div className = 'col s12 m8 l7 offset-m2 offset-l0  background-div'>
 					<img src = {img5} alt = 'Logo' className = 'col s12 photo-home' />
 				</div>
 				<div className = 'col s12 m12 l4 text-home'>

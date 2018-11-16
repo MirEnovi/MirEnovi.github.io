@@ -2,7 +2,6 @@
 	color: #FFFFFF;
 	margin-top: 5em;
 	width: 100;
-	height: 115vh;
 }
 
 .text-body {
@@ -27,36 +26,8 @@
 	box-shadow: 1px -.5px 3px .5px rgb(7, 7, 6, 0.671);
 }
 
-.devicon {
-	font-size: 7em;
-	padding: 0.7rem .75rem !important;
-	color: #a3a3a2;
-}
-
-.habilidades {
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2em;
-	margin: 2.5em 0 2em 0;
-}
-
-@media screen and (max-width: 415px){
-	.aboutme {
-		height: 200vh !important;
-	}
-}
-
-@media screen and (min-width:416px) and (max-width: 500px){
-	.aboutme {
-		height: 175vh !important;
-	}
-}
 
 @media screen and (max-width: 774px) {
-	.aboutme {
-		height: 165vh;
-		margin-bottom: 5em;
-	}
 	.text-body {
 		font-size: calc(.9em + 1vmin);
 	}
@@ -65,28 +36,3 @@
 		height: 35vh;
 	}
 }
-
-@media screen and (min-width:775px) and (max-width: 992px){
-	.aboutme {
-		height: 170vh !important;
-	}
-}
-
-/* @media screen and (min-width:993px) and (max-width: 1028px){
-	.aboutme {
-		height: 110vh !important;
-	}
-} */
-
-
-@media screen and (min-width: 993px) and (max-width: 1107px){
-	.aboutme {
-		height: 110vh !important;
-	}
-}
-
-/* @media screen and (max-width: 768px) and (max-height: 1024px){
-	.aboutme {
-		height: 120vh !important;
-	}
-} */

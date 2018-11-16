@@ -18,6 +18,7 @@
     height: 50vh;
     margin-top: 2.5em;
     border-radius: 2em;
+    justify-content: center;
 }
 
 .text-home {
