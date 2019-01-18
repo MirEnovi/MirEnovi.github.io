@@ -19,9 +19,11 @@ const Skills = () => {
 
 				<i className="devicon devicon-nodejs-plain-wordmark col s4 m4 l2"></i>
 
-				<div className='col s4 m4 l2'>
+				<img className='firebase col s4 m4 l2' src={firebase} alt='firebase'/>
+
+				{/* <div className='col s4 m4 l2'>
 					<img className='firebase ' src={firebase} alt='firebase'/>
-				</div>
+				</div> */}
 			</div>  
 		</section>
 	)
