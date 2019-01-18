@@ -18,7 +18,7 @@ const Contact = () => {
 						<div className='col l4 offset-l2 s12'>
 							<h4 className='white-text'>Redes</h4>
 							<ul>
-								<li><a href='https://drive.google.com/file/d/1fvgfcCtCqu2bJSIph7C9FIxL_fRPAZxG/view?usp=sharing' className='tex-link-f valign-wrapper'>
+								<li><a href='https://drive.google.com/file/d/1MfJ-EW47akThpbJJrcVRqke3NVh7CPfw/view?usp=sharing' className='tex-link-f valign-wrapper'>
 									<img src={Cv} alt='curriculum' className='icon-footer'/>
 									Curriculum
 								</a></li>
@@ -31,9 +31,9 @@ const Contact = () => {
 								<li><a href='https://github.com/MirEnovi/' className='tex-link-f'>
 									<i className='devicon-footer devicon-github-plain grey-text text-lighten-3'></i> MirIvonne
 								</a></li>
-								<li><a href='https://twitter.com/mirenovi' className='tex-link-f'>
+								{/* <li><a href='https://twitter.com/mirenovi' className='tex-link-f'>
 									<i className='devicon-footer-t devicon-twitter-plain grey-text text-lighten-3'></i>@MirEnovi
-								</a></li>
+								</a></li> */}
 							</ul>
 						</div>
 					</div>
