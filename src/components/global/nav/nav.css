@@ -51,6 +51,17 @@
 	color: rgb(250, 248, 248);
 }
 
+.nav-movil {
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+	.nav-movil {
+		width: 70vw !important;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.text-nav {
 		font-size: calc(1.3em - .3vmin);

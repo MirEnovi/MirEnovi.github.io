@@ -11,7 +11,7 @@ const Nav = () => {
 	return (
 		<header className= 'navbar-fixed'>
 			<nav className = 'color-nav row'>
-				<div className= 'col s2 offset-s1 offset-m0 hide-on-large-only left valign-wrapper'>
+				<div className= 'col s2  offset-m0 hide-on-large-only left valign-wrapper'>
 					<SideNav
 						trigger={
 							<a><i class="material-icons">menu</i></a>}
@@ -41,7 +41,7 @@ const Nav = () => {
 					</SideNav>
 				</div>
 
-				<ul className='col s8 m5 l4'>
+				<ul className='col s8 m5 l4 nav-movil'>
 					<li><a href='#' > 
 						<img src={logo} alt='Logo' className =' size'/>
 					</a></li>

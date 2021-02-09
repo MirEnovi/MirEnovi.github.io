@@ -18,8 +18,9 @@ const Contact = () => {
 						<div className='col l4 offset-l2 s12'>
 							<h4 className='white-text'>Redes</h4>
 							<ul>
-								< li > < a href = 'https://drive.google.com/file/d/1zGuEXAi7FVuX2ht_LQlV_7twCBCuVfVk/view?usp=sharing'
-								className = 'tex-link-f valign-wrapper' >
+								< li > < a href = 'https://drive.google.com/file/d/17BQuzwDl8I5iT8iSVzC3FB2d4vns9wd1/view?usp=sharing'
+								className = 'tex-link-f valign-wrapper'
+								download >
 									<img src={Cv} alt='curriculum' className='icon-footer'/>
 									Curriculum
 								</a></li>
@@ -38,7 +39,7 @@ const Contact = () => {
 				</div>
 				<div className='footer-copyright'>
 					<div className='container'>
-					2018 Mir García
+					2021 Mirian García
 					<div>Algunos Iconos son de <a href='https://www.flaticon.es/autores/simpleicon' title='SimpleIcon'>SimpleIcon</a> desde <a href='https://www.flaticon.es/' title='Flaticon'>www.flaticon.com</a> con licencia <a href='http://creativecommons.org/licenses/by/3.0/' title='Creative Commons BY 3.0' target='_blank'>CC 3.0 BY</a></div>
 					</div>
 				</div>
