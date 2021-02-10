@@ -4,7 +4,7 @@ import foodmap from '../components/assets/foodmap.png';
 // import registro from '../components/assets/Registro.png';
 // import bpay from '../components/assets/Bpay.png';
 // import amovie from '../components/assets/ApiMovie.png';
-import mdl from '../components/assets/mdl.png';
+//import mdl from '../components/assets/mdl.png';
 import burger from '../components/assets/burger.png';
 import valle from '../components/assets/valle.png';
 

@@ -28,8 +28,7 @@
 
 .text-home {
     max-width: 39%;
-    font-family: 'K2D',
-    sans-serif;
+    font-family: 'K2D', sans-serif;
     font-weight: bold;
     color: rgb(250, 248, 248);
     text-shadow: -1px 1px 0 #000,
@@ -37,6 +36,15 @@
 }
 .text-home h3 {
     font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1240px) {
+    .photo-home {
+        max-width: 50rem;
+    }
+    .text-home h3 {
+        font-size: 3.5rem;
+    }
 }
 
 @media screen and (max-width: 900px) {

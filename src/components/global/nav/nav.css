@@ -53,12 +53,17 @@
 
 .nav-movil {
 	display: flex;
-	justify-content: center;
+	justify-content:flex-start;
+}
+.nav-desk {
+	display: flex;
+	justify-content: flex-end;
 }
 
 @media screen and (max-width: 900px) {
 	.nav-movil {
 		width: 70vw !important;
+		justify-content: center;
 	}
 }
 

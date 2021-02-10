@@ -49,7 +49,7 @@ const Nav = () => {
 					</a></li>
 				</ul>
 
-				<ul className='col m7 l6 right hide-on-med-and-down'>
+				<ul className='col m7 l6 right hide-on-med-and-down nav-desk'>
 					<li><a href='#aboutme' className='text-nav truncate'>Acerca de Mí</a></li>
 					<li><a href='#skills' className='text-nav truncate'>Habilidades</a></li>
 					<li><a href='#projects' className='text-nav'>Proyectos</a></li>
