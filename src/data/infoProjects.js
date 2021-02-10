@@ -74,7 +74,8 @@ export default [
         title: 'Valle Redondo',
         link: 'https://www.valleredondo.com.mx/',
         code: null,
-        info:'Sitio web informativo de la Empresa Méxicana "Valle Redondo"',
+        info: 'Sitio web informativa de la Empresa Mexicana "Valle Redondo". Mi primer proyecto full stack profesional.',
+        tec: 'Tecnologías aplicadas: HTML 5, CSS, Jquery, PHP, Laravel.',
         image: valle
     }
 ]
