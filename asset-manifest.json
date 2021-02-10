@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.62d3bf39.chunk.css",
-  "main.js": "/static/js/main.bce4915f.chunk.js",
-  "main.js.map": "/static/js/main.bce4915f.chunk.js.map",
+  "main.css": "/static/css/main.534d88bf.chunk.css",
+  "main.js": "/static/js/main.b4b6e3ef.chunk.js",
+  "main.js.map": "/static/js/main.b4b6e3ef.chunk.js.map",
   "static/js/1.4af67147.chunk.js": "/static/js/1.4af67147.chunk.js",
   "static/js/1.4af67147.chunk.js.map": "/static/js/1.4af67147.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -15,9 +15,8 @@
   "static/media/burger.png": "/static/media/burger.f33f5657.png",
   "static/media/valle.png": "/static/media/valle.e64779e4.png",
   "static/media/home.css": "/static/media/fondo.51c89902.png",
-  "static/media/mdl.png": "/static/media/mdl.219b0181.png",
-  "static/css/main.62d3bf39.chunk.css.map": "/static/css/main.62d3bf39.chunk.css.map",
+  "static/css/main.534d88bf.chunk.css.map": "/static/css/main.534d88bf.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b138b82e55b8e35dbdefff470e5d9cff.js": "/precache-manifest.b138b82e55b8e35dbdefff470e5d9cff.js",
+  "precache-manifest.b1352e9c4ba2d21f69a15dc3898cda42.js": "/precache-manifest.b1352e9c4ba2d21f69a15dc3898cda42.js",
   "service-worker.js": "/service-worker.js"
 }
