@@ -17,7 +17,8 @@ class App extends Component {
         <Nav/>
         <Home/>
         <div id='aboutme'></div>
-        <Aboutme/>
+        <Aboutme />
+        <div id='skills'></div>
         <Skills/>
         <div id='projects'></div>
         <Projects/>
