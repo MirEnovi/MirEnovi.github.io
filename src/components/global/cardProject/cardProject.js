@@ -14,15 +14,11 @@ const CardPjc = (props) => {
 				<img className='activator responsive-img' src={props.image} alt={props.title}/>
 			</div>
 			<div className='card-content'>
-				<div className='col s12'>
-					<p className='c-title activator blue-grey-text text-lighten-5'>{props.title}</p>
-					<p className='c-click-text'>Detalles: Click en la imagen</p>
-					
-					<button onClick={goCode} className='black amber-text text-acent-5 col s12 m6 l6 waves-effect waves-light'>Codigo</button>
-					
-
-					<button onClick={goLink} className='black amber-text text-acent-5 col s12 m6 l6 waves-effect waves-light'>Visitar</button>
-
+				<p className='c-title activator blue-grey-text text-lighten-5'>{props.title}</p>
+				<p className='c-click-text'>Detalles: Click en la imagen</p>
+				<div className='btn-content'>
+					<button onClick={goCode} className='black amber-text text-acent-5 waves-effect waves-light'>Codigo</button>
+					<button onClick={goLink} className='black amber-text text-acent-5 waves-effect waves-light'>Visitar</button>
 				</div>
 			</div>
 			<div className='card-reveal reve-card'>

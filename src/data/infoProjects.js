@@ -6,6 +6,8 @@ import foodmap from '../components/assets/foodmap.png';
 // import amovie from '../components/assets/ApiMovie.png';
 import mdl from '../components/assets/mdl.png';
 import burger from '../components/assets/burger.png';
+import valle from '../components/assets/valle.png';
+
 
 export default [
     // {
@@ -52,14 +54,14 @@ export default [
     //     info:'Este blog personal tiene el objetivo de mostrar la información de la una película. Cuenta con un login en Firebase pensando en una futura funcionalidad de guardar favoritos',
     //     image: amovie
     // },
-    {
-        title: 'Markdown Links',
-        link: 'https://github.com/MirEnovi/cdmx-2018-01-FE-markdown',
-        code: 'https://github.com/MirEnovi/cdmx-2018-01-FE-markdown',
-        info:' Librería de NodeJS que identifica los links de un archivo markdown y devuelve un objeto con las urls activas y aquellas que retornan error.',
-        tec:'Tecnologías aplicadas: Javascript, NodeJS, NPM, CLI, Path.',
-        image: mdl
-    },
+    // {
+    //     title: 'Markdown Links',
+    //     link: 'https://github.com/MirEnovi/cdmx-2018-01-FE-markdown',
+    //     code: 'https://github.com/MirEnovi/cdmx-2018-01-FE-markdown',
+    //     info:' Librería de NodeJS que identifica los links de un archivo markdown y devuelve un objeto con las urls activas y aquellas que retornan error.',
+    //     tec:'Tecnologías aplicadas: Javascript, NodeJS, NPM, CLI, Path.',
+    //     image: mdl
+    // },
     {
         title: 'Burger Queen',
         link: 'https://mirenovi.github.io/cdmx-2018-06-bc-core-am-burger-queen/',
@@ -68,4 +70,11 @@ export default [
         tec:'Tecnologías aplicadas: HTML 5, Javascript, React, Materialize, Firebase, React Router.',
         image: burger
     },
+    {
+        title: 'Valle Redondo',
+        link: 'https://www.valleredondo.com.mx/',
+        code: 'https://www.valleredondo.com.mx/',
+        info:'Sitio web informativo de la Empresa Méxicana "Valle Redondo"',
+        image: valle
+    }
 ]
