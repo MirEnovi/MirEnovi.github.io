@@ -8,16 +8,21 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: calc(1em + 1vmin); 
 	text-align: justify;
+	display: flex;
+	justify-content:space-evenly;
 }
-
-
+.contain-text-about {
+	max-width: 55%;
+}
+.contain-img-about {
+	display: flex;
+	align-items: center;
+}
 .photo-mir {
-	height: 50vh;
-	margin-top: 1.5em;
-	border-radius: 3em;
-	box-shadow: 10px 10px 5px 3px rgb(7, 7, 6, 0.671);
+	max-height: 50vh;
+	border-radius: 15px;
+	box-shadow: 2px 2px 3px 2px rgb(7 7 6 / 67%);
 }
-
 .mir-about {
 	text-align: left;
 }
@@ -26,10 +31,25 @@
 	box-shadow: 1px -.5px 3px .5px rgb(7, 7, 6, 0.671);
 }
 
-
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 980px) {
 	.text-body {
 		font-size: calc(.9em + 1vmin);
+	}
+
+	.photo-mir {
+		display: flex;
+		height: 35vh;
+	}
+}
+
+@media screen and (max-width: 774px) {
+	.contain-text-about {
+		max-width: 80%;
+	}
+	.text-body {
+		font-size: calc(.9em + 1vmin);
+		flex-direction: column-reverse;
+		align-items: center;
 	}
 	.photo-mir {
 		display: flex;
