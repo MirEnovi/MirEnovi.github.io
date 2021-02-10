@@ -1,8 +1,12 @@
 .projects {
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
-	min-height: 92vh;
+	min-height: 80vh;
 	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .title-project{
 	color: #ffffff;

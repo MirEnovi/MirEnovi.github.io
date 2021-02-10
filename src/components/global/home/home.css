@@ -18,7 +18,7 @@
 
 
 .photo-home {
-    max-width: 35rem;
+    max-width: -webkit-fill-available;
     height: auto;
     border-radius: 2em;
     display: flex;
@@ -38,7 +38,7 @@
     font-size: 2.5rem;
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1360px) {
     .photo-home {
         max-width: 50rem;
     }
@@ -75,9 +75,6 @@
 }
 
 @media screen and (max-height: 466px) {
-    .photo-home{
-        height: 150px;
-    }
     .background-home {
         height: 50vh !important;
     }
