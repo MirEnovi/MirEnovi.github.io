@@ -73,7 +73,7 @@ export default [
     {
         title: 'Valle Redondo',
         link: 'https://www.valleredondo.com.mx/',
-        code: 'https://www.valleredondo.com.mx/',
+        code: null,
         info:'Sitio web informativo de la Empresa Méxicana "Valle Redondo"',
         image: valle
     }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardPjc = (props) => {
 	const goCode = () => {
-		window.location.replace(props.code);
+		window.location.replace(props.code);		
 	};
 	const goLink = () => {
 		window.location.replace(props.link);
@@ -17,8 +17,12 @@ const CardPjc = (props) => {
 				<p className='c-title activator blue-grey-text text-lighten-5'>{props.title}</p>
 				<p className='c-click-text'>Detalles: Click en la imagen</p>
 				<div className='btn-content'>
-					<button onClick={goCode} className='black amber-text text-acent-5 waves-effect waves-light'>Codigo</button>
-					<button onClick={goLink} className='black amber-text text-acent-5 waves-effect waves-light'>Visitar</button>
+					{
+						props.code && <button onClick={goCode} className='black amber-text text-acent-5 waves-effect waves-light'>Codigo</button>
+					}
+					{
+						props.link && <button onClick={goLink} className='black amber-text text-acent-5 waves-effect waves-light'>Visitar</button>
+					}
 				</div>
 			</div>
 			<div className='card-reveal reve-card'>
