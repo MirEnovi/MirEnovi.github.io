@@ -37,6 +37,9 @@
 	.content-skills {
 		padding: 0;
 	}
+	.title-skills {
+		margin-bottom: 3em 0 2em 0;
+	}
 }
 
 @media screen and (max-width: 500px) {
